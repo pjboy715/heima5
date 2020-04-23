@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ca47f2-c06c-4d9f-859d-0bd00779ea09" name="默认更改列表" comment="" />
+    <list default="true" id="d2ca47f2-c06c-4d9f-859d-0bd00779ea09" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1avmJDqPc1FUcBogOPYn7msj8HV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Python.01-学员管理系统">
     <configuration name="01-学员管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -88,34 +95,62 @@
       <option name="presentableId" value="Default" />
       <updated>1587624367922</updated>
       <workItem from="1587624369158" duration="6000" />
-      <workItem from="1587624509477" duration="13826000" />
+      <workItem from="1587624509477" duration="14692000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1587656301284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587656301285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1731" height="276" key="GridCell.Tab.0.bottom" timestamp="1587653070636">
+    <state x="1975" y="350" key="CommitChangelistDialog2" timestamp="1587656300570">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="276" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1587653070636" />
-    <state width="1731" height="276" key="GridCell.Tab.0.center" timestamp="1587653070636">
+    <state x="1975" y="350" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1587656300570" />
+    <state width="1731" height="276" key="GridCell.Tab.0.bottom" timestamp="1587656002894">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="276" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1587653070636" />
-    <state width="1731" height="276" key="GridCell.Tab.0.left" timestamp="1587653070636">
+    <state width="1731" height="276" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1587656002894" />
+    <state width="1731" height="276" key="GridCell.Tab.0.center" timestamp="1587656002894">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="276" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1587653070636" />
-    <state width="1731" height="276" key="GridCell.Tab.0.right" timestamp="1587653070636">
+    <state width="1731" height="276" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1587656002894" />
+    <state width="1731" height="276" key="GridCell.Tab.0.left" timestamp="1587656002894">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="276" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1587653070636" />
+    <state width="1731" height="276" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1587656002894" />
+    <state width="1731" height="276" key="GridCell.Tab.0.right" timestamp="1587656002894">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="1731" height="276" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1587656002894" />
+    <state x="1878" y="418" key="SettingsEditor" timestamp="1587656791309">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1878" y="418" key="SettingsEditor/0.0.3440.1410@0.0.3440.1410" timestamp="1587656791309" />
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2" timestamp="1587656718520">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1587656718520" />
     <state x="2234" y="579" key="search.everywhere.popup" timestamp="1587648839516">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="2234" y="579" key="search.everywhere.popup/0.0.3440.1410@0.0.3440.1410" timestamp="1587648839516" />
+    <state x="2207" y="565" key="svn.repositoryBrowser" timestamp="1587656093699">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="2207" y="565" key="svn.repositoryBrowser/0.0.3440.1410@0.0.3440.1410" timestamp="1587656093699" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/heima5$hm_07_.coverage" NAME="hm_07_集合推导式 Coverage Results" MODIFIED="1587643041769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
