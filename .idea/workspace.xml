@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ca47f2-c06c-4d9f-859d-0bd00779ea09" name="默认更改列表" comment="" />
+    <list default="true" id="d2ca47f2-c06c-4d9f-859d-0bd00779ea09" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/02.面向对象/01.体验面向对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/02.体验魔法方法init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/03.带参数的init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/04.str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/05.del.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/06.案例-烤地瓜.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.面向对象/07.案例-搬家具.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文件处理/06.文件和文件夹操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文件处理/07.批量重命名.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +41,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.05.文件备份">
-    <configuration name="01.读取函数之read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\heima5\02.面向对象" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.07.案例-搬家具">
+    <configuration name="01.体验面向对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,12 +55,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件处理/01.读取函数之read.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.面向对象/01.体验面向对象.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02.读取函数之readlines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04.str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,12 +77,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\heima5\文件处理\02.读取函数之readlines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.面向对象/04.str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03.读取函数之readline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05.del" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,12 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件处理/03.读取函数之readline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.面向对象/05.del.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04-列表内字典排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="06.案例-烤地瓜" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\heima5\04-列表内字典排序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.面向对象/06.案例-烤地瓜.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04.seek函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="07.案例-搬家具" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,34 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\heima5\文件处理\04.seek函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05.文件备份" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="heima5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件处理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件处理/05.文件备份.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.面向对象/07.案例-搬家具.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05.文件备份" />
-        <item itemvalue="Python.04.seek函数" />
-        <item itemvalue="Python.03.读取函数之readline" />
-        <item itemvalue="Python.02.读取函数之readlines" />
-        <item itemvalue="Python.01.读取函数之read" />
+        <item itemvalue="Python.07.案例-搬家具" />
+        <item itemvalue="Python.06.案例-烤地瓜" />
+        <item itemvalue="Python.05.del" />
+        <item itemvalue="Python.04.str" />
+        <item itemvalue="Python.01.体验面向对象" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +183,8 @@
       <workItem from="1587691674015" duration="1133000" />
       <workItem from="1587813682343" duration="1215000" />
       <workItem from="1587915525105" duration="1535000" />
-      <workItem from="1587971836929" duration="13893000" />
+      <workItem from="1587971836929" duration="14254000" />
+      <workItem from="1588039243181" duration="16656000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1587656301284</created>
@@ -212,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587999999501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1588002690033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588002690033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,10 +229,10 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="2341" y="744" key="#Notifications/0.0.3440.1410@0.0.3440.1410" timestamp="1587657504572" />
-    <state x="1975" y="350" key="CommitChangelistDialog2" timestamp="1587999998976">
+    <state x="1975" y="350" key="CommitChangelistDialog2" timestamp="1588002689634">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="1975" y="350" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1587999998976" />
+    <state x="1975" y="350" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1588002689634" />
     <state x="2157" y="515" key="FileChooserDialogImpl" timestamp="1587657289124">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
@@ -239,38 +241,38 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="2330" y="779" width="256" height="298" key="Github.ShareDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1587657668558" />
-    <state width="1731" height="300" key="GridCell.Tab.0.bottom" timestamp="1587998778339">
+    <state width="1731" height="300" key="GridCell.Tab.0.bottom" timestamp="1588082743349">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="300" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1587998778339" />
-    <state width="1731" height="300" key="GridCell.Tab.0.center" timestamp="1587998778339">
+    <state width="1731" height="300" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1588082743349" />
+    <state width="1731" height="300" key="GridCell.Tab.0.center" timestamp="1588082743349">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="300" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1587998778339" />
-    <state width="1731" height="300" key="GridCell.Tab.0.left" timestamp="1587998778339">
+    <state width="1731" height="300" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1588082743349" />
+    <state width="1731" height="300" key="GridCell.Tab.0.left" timestamp="1588082743349">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="300" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1587998778339" />
-    <state width="1731" height="300" key="GridCell.Tab.0.right" timestamp="1587998778339">
+    <state width="1731" height="300" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1588082743349" />
+    <state width="1731" height="300" key="GridCell.Tab.0.right" timestamp="1588082743349">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="300" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1587998778339" />
-    <state width="1731" height="370" key="GridCell.Tab.1.bottom" timestamp="1587973519653">
+    <state width="1731" height="300" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1588082743349" />
+    <state width="1731" height="370" key="GridCell.Tab.1.bottom" timestamp="1588002983012">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1587973519653" />
-    <state width="1731" height="370" key="GridCell.Tab.1.center" timestamp="1587973519652">
+    <state width="1731" height="370" key="GridCell.Tab.1.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1588002983012" />
+    <state width="1731" height="370" key="GridCell.Tab.1.center" timestamp="1588002983012">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.center/0.0.3440.1410@0.0.3440.1410" timestamp="1587973519652" />
-    <state width="1731" height="370" key="GridCell.Tab.1.left" timestamp="1587973519652">
+    <state width="1731" height="370" key="GridCell.Tab.1.center/0.0.3440.1410@0.0.3440.1410" timestamp="1588002983012" />
+    <state width="1731" height="370" key="GridCell.Tab.1.left" timestamp="1588002983012">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.left/0.0.3440.1410@0.0.3440.1410" timestamp="1587973519652" />
-    <state width="1731" height="370" key="GridCell.Tab.1.right" timestamp="1587973519652">
+    <state width="1731" height="370" key="GridCell.Tab.1.left/0.0.3440.1410@0.0.3440.1410" timestamp="1588002983012" />
+    <state width="1731" height="370" key="GridCell.Tab.1.right" timestamp="1588002983012">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.right/0.0.3440.1410@0.0.3440.1410" timestamp="1587973519652" />
+    <state width="1731" height="370" key="GridCell.Tab.1.right/0.0.3440.1410@0.0.3440.1410" timestamp="1588002983012" />
     <state x="2328" y="539" key="RollbackChangesDialog" timestamp="1587973505951">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
@@ -279,10 +281,10 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1878" y="418" key="SettingsEditor/0.0.3440.1410@0.0.3440.1410" timestamp="1587657583895" />
-    <state x="1969" y="507" key="Vcs.Push.Dialog.v2" timestamp="1588000032107">
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2" timestamp="1588002701855">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="1969" y="507" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1588000032107" />
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1588002701855" />
     <state x="2234" y="579" key="search.everywhere.popup" timestamp="1587648839516">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
@@ -293,22 +295,31 @@
     <state x="2207" y="565" key="svn.repositoryBrowser/0.0.3440.1410@0.0.3440.1410" timestamp="1587656093699" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/heima5$hm_07_.coverage" NAME="hm_07_集合推导式 Coverage Results" MODIFIED="1587643041769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heima5$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1587917000648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$__1_.coverage" NAME="列表内字典排序 (1) Coverage Results" MODIFIED="1587975025577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heima5$01_.coverage" NAME="01-学员管理系统 Coverage Results" MODIFIED="1587656002890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$01_.coverage" NAME="01.体验面向对象 Coverage Results" MODIFIED="1588075973100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$Python_07_.coverage" NAME="Python_07.批量重命名 Coverage Results" MODIFIED="1588067696664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
     <SUITE FILE_PATH="coverage/heima5$07_map.coverage" NAME="07-内置高阶函数之map Coverage Results" MODIFIED="1587976991674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heima5$08_reduce.coverage" NAME="08-内置高阶函数之reduce Coverage Results" MODIFIED="1587977635891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$.coverage" NAME="高阶函数 Coverage Results" MODIFIED="1587976303487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$05_.coverage" NAME="05.文件备份 Coverage Results" MODIFIED="1587998778335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
-    <SUITE FILE_PATH="coverage/heima5$absround.coverage" NAME="abs和round函数 Coverage Results" MODIFIED="1587975290342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heima5$01_read.coverage" NAME="01.读取函数之read Coverage Results" MODIFIED="1587994979784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
-    <SUITE FILE_PATH="coverage/heima5$lambda__1_.coverage" NAME="lambda的参数形式 (1) Coverage Results" MODIFIED="1587972811549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$03_init.coverage" NAME="03.带参数的init Coverage Results" MODIFIED="1588075963384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$06_.coverage" NAME="06.文件和文件夹操作 Coverage Results" MODIFIED="1588065952545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
     <SUITE FILE_PATH="coverage/heima5$seek.coverage" NAME="seek函数 Coverage Results" MODIFIED="1587996628290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
     <SUITE FILE_PATH="coverage/heima5$lambda.coverage" NAME="带判断的lambda Coverage Results" MODIFIED="1587974960720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$09_filter.coverage" NAME="09-内置高阶函数之filter Coverage Results" MODIFIED="1587978071979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$05_del.coverage" NAME="05.del Coverage Results" MODIFIED="1588076753156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
     <SUITE FILE_PATH="coverage/heima5$test.coverage" NAME="test Coverage Results" MODIFIED="1587692840855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heima5$02_readlines.coverage" NAME="02.readlines Coverage Results" MODIFIED="1587995167405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
     <SUITE FILE_PATH="coverage/heima5$03_readline.coverage" NAME="03.读取函数之readline Coverage Results" MODIFIED="1587995728058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
+    <SUITE FILE_PATH="coverage/heima5$hm_07_.coverage" NAME="hm_07_集合推导式 Coverage Results" MODIFIED="1587643041769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$02_.coverage" NAME="02.魔法方法 Coverage Results" MODIFIED="1588075150236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1587917000648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$07__.coverage" NAME="07.案例-搬家具 Coverage Results" MODIFIED="1588082743343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$08_reduce.coverage" NAME="08-内置高阶函数之reduce Coverage Results" MODIFIED="1587977635891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$absround.coverage" NAME="abs和round函数 Coverage Results" MODIFIED="1587975290342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$01_read.coverage" NAME="01.读取函数之read Coverage Results" MODIFIED="1587994979784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
+    <SUITE FILE_PATH="coverage/heima5$07_.coverage" NAME="07.批量重命名 Coverage Results" MODIFIED="1588067681138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
+    <SUITE FILE_PATH="coverage/heima5$lambda__1_.coverage" NAME="lambda的参数形式 (1) Coverage Results" MODIFIED="1587972811549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heima5$04_str.coverage" NAME="04.str Coverage Results" MODIFIED="1588076575336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$02_readlines.coverage" NAME="02.readlines Coverage Results" MODIFIED="1587995167405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
+    <SUITE FILE_PATH="coverage/heima5$06__.coverage" NAME="06.案例-烤地瓜 Coverage Results" MODIFIED="1588079882657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
   </component>
 </project>
