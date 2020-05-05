@@ -13,11 +13,13 @@
   - 退出系统
 '''
 
+from student import *
+
 
 class StudentManager(object):
     def __init__(self):
         # 存储学员数据
-        self.student = []
+        self.student_list = []
 
     # - 定义程序入口函数
     def run(self):
@@ -67,14 +69,46 @@ class StudentManager(object):
 
     # 添加学员
     def add_student(self):
-        print('添加学员')
+        # - 用户输入姓名、性别、手机号
+        name = input('请输入您的姓名：')
+        gender = input('请输入您的性别：')
+        tel = input('请输入您的手机号码：')
+
+        # - 创建该学员对象 -- 类，类在student文件中，先导入student模块，再创建对象
+        student = Student(name, gender, tel)
+
+        # - 将该学员对象添加到列表
+        self.student_list.append(student)
+
+        # 打印信息
+        print(self.student_list)
+        print(student)
 
     # 删除学员
     def del_student(self):
-        print('删除学员')
+        # - 用户输入目标学员姓名
+        del_name = input('请输入要删除的学员姓名：')
+
+        # - 遍历学员数据列表，如果用户输入的学员姓名存在则删除，否则则提示该学员不存在
+        for i in self.student_list:
+            if del_name == i.name:
+                # 删除该学员对象
+                self.student_list.remove(i)
+                break
+        else:
+            print('查无此人！')
+
+        # 打印学员列表，验证删除功能
+        print(self.student_list)
 
     # 修改学员信息
     def modify_student(self):
+        # - 用户输入目标学员姓名；
+        modify_name = input('请输入要修改的学员姓名：')
+        # - 遍历学员数据列表，如果用户输入的学员姓名存在则修改学员的姓名、性别、手机号数据，否则则提示该学员不存在
+        for i in self.student_list:
+            if i.name == modify_name:
+
         print('修改学员信息')
 
     # 查询学员信息
