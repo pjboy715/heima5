@@ -10,6 +10,8 @@ def dance():
     print('dance:', os.getpid())
     # 获取当前进程
     print('dance:', multiprocessing.current_process)
+    # 获取当前进程的父进程
+    print('dance父进程:', os.getppid())
     for i in range(3):
         print('跳舞中...')
         time.sleep(0.2)
@@ -21,9 +23,13 @@ def sing():
     print('sing:', os.getpid())
     # 获取当前进程
     print('sing:', multiprocessing.current_process)
+    # 获取当前进程的父进程
+    print('sing父进程:', os.getppid())
     for i in range(3):
         print('唱歌中...')
         time.sleep(0.2)
+        # 扩展:根据进程编号杀死指定进程
+        os.kill(os.getpid(), 9)
 
 
 if __name__ == '__main__':
