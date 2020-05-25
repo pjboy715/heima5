@@ -108,21 +108,60 @@ class StudentManager(object):
         # - 遍历学员数据列表，如果用户输入的学员姓名存在则修改学员的姓名、性别、手机号数据，否则则提示该学员不存在
         for i in self.student_list:
             if i.name == modify_name:
-
-        print('修改学员信息')
+                i.name = input('请输入新的学员姓名：')
+                i.gender = input('请输入新的学员性别：')
+                i.tel = input('请输入新的学员手机号：')
+                print(f'修改该学员信息成功，姓名：{i.name}，性别{i.gender}，手机号{i.tel}')
+        else:
+            print('查无此人！')
 
     # 查询学员信息
     def search_student(self):
-        print('查询学员信息')
+        # - 用户输入目标学员姓名
+        search_student = input('请输入您要搜索的学员姓名：')
+        # - 遍历学员数据列表，如果用户输入的学员姓名存在则打印学员信息，否则提示该学员不存在
+        for i in self.student_list:
+            if search_student == i.name:
+                print(f'姓名是{i.name}，性别是{i.gender}，手机号是{i.tel}')
+                break
+        else:
+            print('查无此人！')
 
     # 显示所有学员信息
     def show_student(self):
-        print('显示所有学员信息')
+        # 打印表头
+        print('姓名\t性别\t手机号')
+        # 遍历学员数据列表，打印所有学员信息
+        for i in self.student_list:
+            print(f'{i.name}\t{i.gender}\t{i.tel}')
 
     # 保存学员信息
     def save_student(self):
-        print('保存学员信息')
+        # - 打开文件
+        f = open('student.data', 'w')
+        # - 文件写入数据
+        # 文件写入的数据不能是学员对象的内存地址，需要把学员数据转换成列表字典数据再做存储
+        new_list = [i.__dict__ for i in self.student_list]
+        print(new_list)
+        # 文件内数据要求为字符串类型，故需要先转换数据类型为字符串才能文件写入数据
+        f.write(str(new_list))
+        # - 关闭文件
+        f.close()
 
     # 加载学员信息
     def load_student(self):
-        print('加载学员信息')
+        # - 尝试以`"r"`模式打开学员数据文件，如果文件不存在则以`"w"`模式打开文件
+        try:
+            f = open('student.data', 'r')
+        except:
+            f = open('student.data', 'w')
+        # - 如果文件存在则读取数据并存储数据
+        # - 读取数据
+        else:
+            data = f.read()
+            # - 转换数据类型为列表并转换列表内的字典为对象，存储学员数据到学员列表
+            new_list = eval(data)
+            self.student_list = [Student(i['name'], i['gender'], i['tel']) for i in new_list]
+        finally:
+            # - 关闭文件
+            f.close()
