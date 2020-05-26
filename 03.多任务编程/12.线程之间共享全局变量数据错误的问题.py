@@ -1,8 +1,6 @@
 import threading
 
 # 全局变量
-from typing import Any, Union
-
 g_num = 0
 
 
