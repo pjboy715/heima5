@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2ca47f2-c06c-4d9f-859d-0bd00779ea09" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/04.Web服务器/01.TCP客户端程序开发.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.Web服务器/02.TCP服务端程序开发.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.Web服务器/03.解决端口号复用问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.Web服务器/04.TCP服务端服务于多个客户端.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.多任务编程/12.线程之间共享全局变量数据错误的问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.多任务编程/12.线程之间共享全局变量数据错误的问题.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/03.多任务编程" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -51,8 +54,8 @@
       <recent name="E:\PycharmProjects\heima5\02.面向对象" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12.线程之间共享全局变量数据错误的问题">
-    <configuration name="10.主线程会等待所有子线程结束后再结束" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.04.TCP服务端服务于多个客户端">
+    <configuration name="01.TCP客户端程序开发" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,12 +63,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.多任务编程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.Web服务器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.多任务编程/10.主线程会等待所有子线程结束后再结束.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.Web服务器/01.TCP客户端程序开发.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.线程之间共享全局变量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02.TCP服务端程序开发" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="heima5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +85,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.多任务编程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.Web服务器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.多任务编程/11.线程之间共享全局变量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.Web服务器/02.TCP服务端程序开发.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04.TCP服务端服务于多个客户端" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="heima5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.Web服务器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.Web服务器/04.TCP服务端服务于多个客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,28 +135,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.多任务编程/12.线程之间共享全局变量数据错误的问题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13.互斥锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="heima5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.多任务编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.多任务编程/13.互斥锁.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04.TCP服务端服务于多个客户端" />
+        <item itemvalue="Python.02.TCP服务端程序开发" />
+        <item itemvalue="Python.01.TCP客户端程序开发" />
         <item itemvalue="Python.12.线程之间共享全局变量数据错误的问题" />
         <item itemvalue="Python.14.死锁" />
-        <item itemvalue="Python.13.互斥锁" />
-        <item itemvalue="Python.11.线程之间共享全局变量" />
-        <item itemvalue="Python.10.主线程会等待所有子线程结束后再结束" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,11 @@
       <workItem from="1590201318638" duration="46000" />
       <workItem from="1590377104041" duration="19094000" />
       <workItem from="1590419943427" duration="888000" />
-      <workItem from="1590455896486" duration="550000" />
+      <workItem from="1590455896486" duration="1526000" />
+      <workItem from="1590460826984" duration="4567000" />
+      <workItem from="1590468654925" duration="5271000" />
+      <workItem from="1590505801472" duration="495000" />
+      <workItem from="1590506320768" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1587656301284</created>
@@ -298,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590419864362</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Default Changelist">
+      <created>1590456755773</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590456755774</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,19 +333,19 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1153" y="327" key="#Inspections/0.0.3440.1410@0.0.3440.1410" timestamp="1588679745189" />
-    <state x="2341" y="744" key="#Notifications" timestamp="1590419990439">
+    <state x="2341" y="744" key="#Notifications" timestamp="1590456831624">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="2341" y="744" key="#Notifications/0.0.3440.1410@0.0.3440.1410" timestamp="1590419990439" />
+    <state x="2341" y="744" key="#Notifications/0.0.3440.1410@0.0.3440.1410" timestamp="1590456831624" />
     <state x="1229" y="240" key="#main" timestamp="1588679723544">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1229" y="240" key="#main/0.0.3440.1410@0.0.3440.1410" timestamp="1588679723544" />
-    <state x="1975" y="350" key="CommitChangelistDialog2" timestamp="1590419863900">
+    <state x="1975" y="350" key="CommitChangelistDialog2" timestamp="1590456755143">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="-818" y="184" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588347960352" />
-    <state x="1975" y="350" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1590419863900" />
+    <state x="1975" y="350" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1590456755143" />
     <state x="3022" y="184" key="CommitChangelistDialog2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588643213698" />
     <state x="92" y="92" width="3256" height="1226" key="DiffContextDialog" timestamp="1590381064331">
       <screen x="0" y="0" width="3440" height="1410" />
@@ -347,53 +361,53 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="2330" y="779" width="256" height="298" key="Github.ShareDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1587657668558" />
-    <state width="1731" height="370" key="GridCell.Tab.0.bottom" timestamp="1590419928386">
+    <state width="1731" height="204" key="GridCell.Tab.0.bottom" timestamp="1590506636534">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588435702803" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588320416637" />
-    <state width="1731" height="370" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="204" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1590506636534" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588657567244" />
-    <state width="1731" height="370" key="GridCell.Tab.0.center" timestamp="1590419928386">
+    <state width="1731" height="204" key="GridCell.Tab.0.center" timestamp="1590506636534">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588435702802" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588320416637" />
-    <state width="1731" height="370" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="204" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1590506636534" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588657567244" />
-    <state width="1731" height="370" key="GridCell.Tab.0.left" timestamp="1590419928386">
+    <state width="1731" height="204" key="GridCell.Tab.0.left" timestamp="1590506636534">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588435702802" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588320416637" />
-    <state width="1731" height="370" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="204" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1590506636534" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588657567244" />
-    <state width="1731" height="370" key="GridCell.Tab.0.right" timestamp="1590419928386">
+    <state width="1731" height="204" key="GridCell.Tab.0.right" timestamp="1590506636534">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588435702802" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588320416637" />
-    <state width="1731" height="370" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="204" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1590506636534" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588657567244" />
-    <state width="1731" height="370" key="GridCell.Tab.1.bottom" timestamp="1590419928386">
+    <state width="1731" height="370" key="GridCell.Tab.1.bottom" timestamp="1590506299504">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="370" key="GridCell.Tab.1.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1590506299504" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588604486586" />
-    <state width="1731" height="370" key="GridCell.Tab.1.center" timestamp="1590419928386">
+    <state width="1731" height="370" key="GridCell.Tab.1.center" timestamp="1590506299504">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.center/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="370" key="GridCell.Tab.1.center/0.0.3440.1410@0.0.3440.1410" timestamp="1590506299504" />
     <state width="1877" height="352" key="GridCell.Tab.1.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588604486586" />
-    <state width="1731" height="370" key="GridCell.Tab.1.left" timestamp="1590419928386">
+    <state width="1731" height="370" key="GridCell.Tab.1.left" timestamp="1590506299504">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.left/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="370" key="GridCell.Tab.1.left/0.0.3440.1410@0.0.3440.1410" timestamp="1590506299504" />
     <state width="1877" height="352" key="GridCell.Tab.1.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588604486586" />
-    <state width="1731" height="370" key="GridCell.Tab.1.right" timestamp="1590419928386">
+    <state width="1731" height="370" key="GridCell.Tab.1.right" timestamp="1590506299504">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state width="1731" height="370" key="GridCell.Tab.1.right/0.0.3440.1410@0.0.3440.1410" timestamp="1590419928386" />
+    <state width="1731" height="370" key="GridCell.Tab.1.right/0.0.3440.1410@0.0.3440.1410" timestamp="1590506299504" />
     <state width="1877" height="352" key="GridCell.Tab.1.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588604486586" />
     <state x="1606" y="571" width="425" height="268" key="MultipleFileMergeDialog" timestamp="1590380866693">
       <screen x="0" y="0" width="3440" height="1410" />
@@ -403,22 +417,22 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="2328" y="539" key="RollbackChangesDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1587973505951" />
-    <state x="1878" y="418" key="SettingsEditor" timestamp="1588837225458">
+    <state x="1878" y="418" key="SettingsEditor" timestamp="1590456907872">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="-1138" y="243" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588348121581" />
     <state x="782" y="243" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588320394023" />
-    <state x="1878" y="418" key="SettingsEditor/0.0.3440.1410@0.0.3440.1410" timestamp="1588837225458" />
+    <state x="1878" y="418" key="SettingsEditor/0.0.3440.1410@0.0.3440.1410" timestamp="1590456907872" />
     <state x="2338" y="170" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588567709115" />
     <state x="1487" y="419" key="VCS.ChangeListViewerDialog" timestamp="1590380759046">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1487" y="419" key="VCS.ChangeListViewerDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1590380759046" />
-    <state x="1969" y="507" key="Vcs.Push.Dialog.v2" timestamp="1590420005809">
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2" timestamp="1590456915763">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="-821" y="378" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588347975058" />
-    <state x="1969" y="507" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1590420005809" />
+    <state x="1969" y="507" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1590456915763" />
     <state x="2721" y="323" key="Vcs.Push.Dialog.v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588643226780" />
     <state x="1465" y="438" key="VcsDiffUtil.ChangesDialog" timestamp="1590380999148">
       <screen x="0" y="0" width="3440" height="1410" />
@@ -459,7 +473,9 @@
     <SUITE FILE_PATH="coverage/heima5$24_.coverage" NAME="24.捕获多个指定异常 Coverage Results" MODIFIED="1588566466909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
     <SUITE FILE_PATH="coverage/heima5$28_finally.coverage" NAME="28.捕获时finally用法 Coverage Results" MODIFIED="1588577113861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
     <SUITE FILE_PATH="coverage/heima5$19_.coverage" NAME="19.修改类属性 Coverage Results" MODIFIED="1588414156155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$02_TCP.coverage" NAME="02.TCP服务端程序开发 Coverage Results" MODIFIED="1590504830034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.Web服务器" />
     <SUITE FILE_PATH="coverage/heima5$main.coverage" NAME="main Coverage Results" MODIFIED="1590377507505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象/案例-学员管理系统" />
+    <SUITE FILE_PATH="coverage/heima5$04_TCP.coverage" NAME="04.TCP服务端服务于多个客户端 Coverage Results" MODIFIED="1590506757841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.Web服务器" />
     <SUITE FILE_PATH="coverage/heima5$08_.coverage" NAME="08.线程之间执行是无序的 Coverage Results" MODIFIED="1590414689069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.多任务编程" />
     <SUITE FILE_PATH="coverage/heima5$hm_07_.coverage" NAME="hm_07_集合推导式 Coverage Results" MODIFIED="1587643041769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1587917000648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -487,6 +503,7 @@
     <SUITE FILE_PATH="coverage/heima5$06_.coverage" NAME="06.多线程使用 Coverage Results" MODIFIED="1590413928292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.多任务编程" />
     <SUITE FILE_PATH="coverage/heima5$11_.coverage" NAME="11.线程之间共享全局变量 Coverage Results" MODIFIED="1590416584487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.多任务编程" />
     <SUITE FILE_PATH="coverage/heima5$30_.coverage" NAME="30.自定义异常 Coverage Results" MODIFIED="1588584409772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.面向对象" />
+    <SUITE FILE_PATH="coverage/heima5$01_TCP.coverage" NAME="01.TCP客户端程序开发 Coverage Results" MODIFIED="1590468735081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.Web服务器" />
     <SUITE FILE_PATH="coverage/heima5$seek.coverage" NAME="seek函数 Coverage Results" MODIFIED="1587996628290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件处理" />
     <SUITE FILE_PATH="coverage/heima5$lambda.coverage" NAME="带判断的lambda Coverage Results" MODIFIED="1587974960720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heima5$09_filter.coverage" NAME="09-内置高阶函数之filter Coverage Results" MODIFIED="1587978071979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
